@@ -8,7 +8,7 @@ import {
   ImageBackground,
   TouchableOpacity,
 } from "react-native";
-const image = "/components/Background.png";
+//const image = "/assets/Background.png";
 
 export default class Start extends React.Component {
   constructor() {
@@ -18,7 +18,7 @@ export default class Start extends React.Component {
   render() {
     return (
       <ImageBackground
-        source={require("./Background.png")}
+        source={require("../assets/Background.png")}
         style={styles.backgroundImage}
       >
         <Text style={styles.titleText}>My Chat App</Text>
