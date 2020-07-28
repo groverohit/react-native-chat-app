@@ -184,10 +184,12 @@ export default class Chat extends Component {
     }
   };
 
+  //Render upload image, take photo and share location options
   renderCustomActions = (props) => {
     return <CustomActions {...props} />;
   };
 
+  //Render map
   renderCustomView(props) {
     const { currentMessage } = props;
     if (currentMessage.location) {
